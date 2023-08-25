@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página</title>
+</head>
+<body>
+    <header>
+        <img src="https://t1.ea.ltmcdn.com/es/posts/7/4/3/como_ayudar_a_un_gatito_a_defecar_20347_600.jpg" alt="gatito.jpeg">
+        <h1>Mi Perfil</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Acerca de Mi</h2>
+        <p>Hola, soy Juan Balsamo y estoy cursando un curso en NUCBA.</p>
+    </section>
+
+    <section id="services">
+        <h2>Servicios</h2>
+        <form>
+            <label for="servicio1">Servicio 1</label>
+            <input type="checkbox" id="servicio1" name="servicios[]" value="Servicio 1"><br>
+
+            <label for="servicio2">Servicio 2</label>
+            <input type="checkbox" id="servicio2" name="servicios[]" value="Servicio 2"><br>
+
+            <label for="servicio3">Servicio 3</label>
+            <input type="checkbox" id="servicio3" name="servicios[]" value="Servicio 3"><br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo"><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad"><br>
+
+            <label>Género:</label>
+            <input type="radio" id="masculino" name="genero" value="Masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="Femenino">
+            <label for="femenino">Femenino</label><br>
+
+            <label>Intereses:</label>
+            <label>Intereses:</label>
+            <input type="checkbox" id="interes_historia" name="intereses[]" value="Historia">
+            <label for="interes_historia">Historia</label>
+            <input type="checkbox" id="interes_geografia" name="intereses[]" value="Geografía">
+            <label for="interes_geografia">Geografía</label>
+            <input type="checkbox" id="interes_tecnologia" name="intereses[]" value="Tecnología">
+            <label for="interes_tecnologia">Tecnología</label>
+
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Esto es una prueba con derechos reservados.</p>
+    </footer>
+</body>
+</html>
